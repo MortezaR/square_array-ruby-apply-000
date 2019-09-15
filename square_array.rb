@@ -7,6 +7,7 @@ def square_array(array)
  # end
   #return array
   array.each do |i|
+    puts i
   end
   return array.map { |n| n * n }
 end
