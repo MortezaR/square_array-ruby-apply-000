@@ -6,8 +6,5 @@ def square_array(array)
  #   i += 1
  # end
   #return array
-  array.each do |n|
-    n = n * n
-    puts n + "foo"
-  end
+  array.map { |n| n * n }
 end
