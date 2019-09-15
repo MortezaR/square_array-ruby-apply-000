@@ -6,5 +6,5 @@ def square_array(array)
  #   i += 1
  # end
   #return array
-  array.map { |n| n * n }
+  return array.map { |n| n * n }
 end
